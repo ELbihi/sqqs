@@ -42,8 +42,6 @@ class Settings(BaseSettings):
 
     VIDEO_AI_PROVIDER: str = "mock"
     VIDEO_AI_API_KEY: str | None = None
-    GEMINI_VIDEO_MODEL: str = "veo-3.1-generate-preview"
-    VIDEO_AI_TIMEOUT: int = 600
 
     FREE_SIGNUP_CREDITS: int = 30
 
