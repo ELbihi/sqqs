@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/_storage/
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+
+# Local database (contains password hashes)
+backend/studio.db
+*.db
+*.sqlite3
+
+# Node / Next
+node_modules/
+.next/
+out/
+
+# Tooling / scratch
+Claude outputs/
+.DS_Store
+*.log
